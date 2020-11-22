@@ -1,5 +1,8 @@
 service: hello-serverless
 
+plugins:
+  - serverless-offline
+
 
 frameworkVersion: '2'
 
