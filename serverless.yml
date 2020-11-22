@@ -14,6 +14,14 @@ functions:
   hello:
     handler: handler.hello
 
+  add:
+    handler: add.add
+    events:
+      - http:
+          path: math/add
+          method: post
+          cors: true
+
 
 
 
